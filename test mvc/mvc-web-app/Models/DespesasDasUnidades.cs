@@ -2,7 +2,6 @@ namespace mvc_web_app.Models;
 
 public class DespesasDasUnidades
 {
-    public int id {get;set;}
     public string descricao {get;set;}
     public TipoDespesa tipoDespesa {get;set;}
     public float valor {get;set;}

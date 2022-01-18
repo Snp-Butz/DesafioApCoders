@@ -1,19 +1,18 @@
-@using System.ComponentModel.DataAnnotations
-@model IEnumerable<mvc_web_app.Models.inquilino>
+@model IEnumerable<mvc_web_app.Models.Inquilino>
 
 @{
-    ViewData["Title"] = "Inicio";
+    ViewData["Title"] = "Index";
 }
 
-<h1>Inicio</h1>
+<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Adicionar</a>
+    <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+             <th>
                 @Html.DisplayNameFor(model => model.nome)
             </th>
             <th>
@@ -50,9 +49,9 @@
                 @Html.DisplayFor(modelItem => item.email)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.id">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.id">Excluir</a>
+                <a asp-action="Edit" asp-route-id="@item.nome">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.nome">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.nome">Delete</a>
             </td>
         </tr>
 }

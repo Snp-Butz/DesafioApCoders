@@ -1,9 +1,17 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace mvc_web_app.Models;
+[Table("Unidade")]
 public class Unidade
 {
-    public int id {get;set;}
-	public string indentificacao {get;set;}
-    public string proprietario{get;set;}
-    public string condominio{get;set;}
-    public string endereco {get;set;}
+    [Display(Name = "Identiicação"), Key()]
+    public string indentificacao { get; set; }
+    [Display(Name = "Proprietário")]
+    public string proprietario { get; set; }
+    [Display(Name = "Condomínio")]
+    public string condominio { get; set; }
+    [Display(Name = "Endereço")]
+    public string endereco { get; set; }
+
 }

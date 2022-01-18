@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using mvc_web_app;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MvcWebAppContext>(options =>

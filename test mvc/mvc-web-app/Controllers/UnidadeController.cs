@@ -11,22 +11,22 @@ using mvc_web_app.Models;
 
 namespace mvc_web_app.Controllers
 {
-    public class InquilinoController : Controller
+    public class UnidadeController : Controller
     {
         private readonly MvcWebAppContext _context;
 
-        public InquilinoController(MvcWebAppContext context)
+        public UnidadeController(MvcWebAppContext context)
         {
             _context = context;
         }
 
-        // GET: Inquilino
+        // GET: Unidade
         public async Task<IActionResult> Index()
         {
-            return View(await _context.inquilino.ToListAsync());
+            return View(await _context.Unidade.ToListAsync());
         }
 
-        // GET: Inquilino/Details/5
+        // GET: Unidade/Details/5
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -34,44 +34,45 @@ namespace mvc_web_app.Controllers
                 return NotFound();
             }
 
-            var inquilino = await _context.inquilino
-                .FirstOrDefaultAsync(m => m.nome == id);
-            if (inquilino == null)
+            var unidade = await _context.Unidade.FirstOrDefaultAsync(m => m.indentificacao == id);
+
+            if (unidade == null)
             {
                 return NotFound();
             }
 
-            return View(inquilino);
+            return View(unidade);
         }
 
-        // GET: Inquilino/Create
+        // GET: Unidade/Create
         public IActionResult Create()
         {
-            ViewData["sexo"] = new SelectList(Enum.GetValues(typeof(Sexo)));
+            ViewData["proprietario"] = new SelectList(_context.inquilino, "nome", "nome");
             return View();
         }
 
-        // POST: Inquilino/Create
+        // POST: Unidade/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("nome,idade,sexo,telefone,email")] Inquilino inquilino)
-        {   if(InquilinoExists(inquilino.nome))
+        public async Task<IActionResult> Create([Bind("indentificacao,proprietario,condominio,endereco")] Unidade unidade)
+        {
+            if (UnidadeExists(unidade.indentificacao))
             {
-                ModelState.AddModelError("","O inquilino já existe!");
+                ModelState.AddModelError("","Á unidade já existe!");
             }
             if (ModelState.IsValid)
             {
-                _context.Add(inquilino);
+                _context.Add(unidade);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["sexo"] = new SelectList(Enum.GetValues(typeof(Sexo)));
-            return View(inquilino);
+            ViewData["proprietario"] = new SelectList(_context.inquilino, "nome", "nome", unidade.proprietario);
+            return View(unidade);
         }
 
-        // GET: Inquilino/Edit/5
+        // GET: Unidade/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
@@ -79,22 +80,23 @@ namespace mvc_web_app.Controllers
                 return NotFound();
             }
 
-            var inquilino = await _context.inquilino.FindAsync(id);
-            if (inquilino == null)
+            var unidade = await _context.Unidade.FindAsync(id);
+            if (unidade == null)
             {
                 return NotFound();
             }
-            return View(inquilino);
+            ViewData["proprietario"] = new SelectList(_context.inquilino, "nome", "nome", unidade.proprietario);
+            return View(unidade);
         }
 
-        // POST: Inquilino/Edit/5
+        // POST: Unidade/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("nome,idade,sexo,telefone,email")] Inquilino inquilino)
+        public async Task<IActionResult> Edit(string id, [Bind("indentificacao,proprietario,condominio,endereco")] Unidade unidade)
         {
-            if (id != inquilino.nome)
+            if (id != unidade.indentificacao)
             {
                 return NotFound();
             }
@@ -103,12 +105,12 @@ namespace mvc_web_app.Controllers
             {
                 try
                 {
-                    _context.Update(inquilino);
+                    _context.Update(unidade);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!InquilinoExists(inquilino.nome))
+                    if (!UnidadeExists(unidade.indentificacao))
                     {
                         return NotFound();
                     }
@@ -119,10 +121,11 @@ namespace mvc_web_app.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(inquilino);
+            ViewData["proprietario"] = new SelectList(_context.inquilino, "nome", "nome", unidade.proprietario);
+            return View(unidade);
         }
 
-        // GET: Inquilino/Delete/5
+        // GET: Unidade/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -130,30 +133,30 @@ namespace mvc_web_app.Controllers
                 return NotFound();
             }
 
-            var inquilino = await _context.inquilino
-                .FirstOrDefaultAsync(m => m.nome == id);
-            if (inquilino == null)
+            var unidade = await _context.Unidade
+                .FirstOrDefaultAsync(m => m.indentificacao == id);
+            if (unidade == null)
             {
                 return NotFound();
             }
 
-            return View(inquilino);
+            return View(unidade);
         }
 
-        // POST: Inquilino/Delete/5
+        // POST: Unidade/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var inquilino = await _context.inquilino.FindAsync(id);
-            _context.inquilino.Remove(inquilino);
+            var unidade = await _context.Unidade.FindAsync(id);
+            _context.Unidade.Remove(unidade);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool InquilinoExists(string id)
+        private bool UnidadeExists(string id)
         {
-            return _context.inquilino.Any(e => e.nome == id);
+            return _context.Unidade.Any(e => e.indentificacao == id);
         }
     }
 }

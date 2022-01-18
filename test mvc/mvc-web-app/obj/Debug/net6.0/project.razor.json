@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Unidade\\Details.cshtml",
+      "TargetPath": "Views\\Unidade\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16315,6 +16320,11 @@
     {
       "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Inquilino\\Delete.cshtml",
       "TargetPath": "Views\\Inquilino\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Unidade\\Create.cshtml",
+      "TargetPath": "Views\\Unidade\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16335,6 +16345,21 @@
     {
       "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Unidade\\Index.cshtml",
+      "TargetPath": "Views\\Unidade\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Unidade\\Delete.cshtml",
+      "TargetPath": "Views\\Unidade\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\mvc-web-app\\Views\\Unidade\\Edit.cshtml",
+      "TargetPath": "Views\\Unidade\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
