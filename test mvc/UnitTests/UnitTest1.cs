@@ -1,13 +1,12 @@
-using Xunit;
-using Services;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests;
 
+[TestClass]
 public class UnitTest1
 {
-    [Fact]
-    public void Test1()
+    [TestMethod]
+    public void TestMethod1()
     {
-        Class1 c = new Class1();
     }
 }

@@ -1,0 +1,54 @@
+@model mvc_web_app.Models.DespesaDaUnidade
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DespesaDaUnidade</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tipoDespesa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tipoDespesa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.valor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.valor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.vencimento_fatura)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.vencimento_fatura)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.statusPagamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.statusPagamento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.unidadeId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.unidadeId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

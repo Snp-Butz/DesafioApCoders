@@ -1,0 +1,58 @@
+@model mvc_web_app.Models.DespesaDaUnidade
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Despesas Das Unidades</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="descricao" class="control-label"></label>
+                <input asp-for="descricao" class="form-control" />
+                <span asp-validation-for="descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tipoDespesa" class="control-label"></label>
+                <select asp-for="tipoDespesa" class="form-control" asp-items=ViewBag.tipoDespesa></select>
+                <span asp-validation-for="tipoDespesa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="valor" class="control-label"></label>
+                <input asp-for="valor" class="form-control" />
+                <span asp-validation-for="valor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="vencimento_fatura" class="control-label"></label>
+                <input asp-for="vencimento_fatura" class="form-control"/>
+                <span asp-validation-for="vencimento_fatura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="statusPagamento" class="control-label"></label>
+                <select asp-for="statusPagamento" class="form-control" asp-items=ViewBag.statusPagamento></select>
+                <span asp-validation-for="statusPagamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="unidadeId" class="control-label"></label>
+                <select asp-for="unidadeId" class="form-control"  asp-items=ViewBag.unidades></select>
+                <span asp-validation-for="unidadeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mvc_web_app
+build_property.RootNamespace = mvc_web_app
+build_property.ProjectDir = c:\Users\Valter\Documents\VS Code Projects\test mvc\mvcwebapp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Valter\Documents\VS Code Projects\test mvc\mvcwebapp
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/DespesaDaUnidade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzcGVzYURhVW5pZGFkZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/DespesaDaUnidade/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzcGVzYURhVW5pZGFkZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/DespesaDaUnidade/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzcGVzYURhVW5pZGFkZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/DespesaDaUnidade/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzcGVzYURhVW5pZGFkZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/DespesaDaUnidade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzcGVzYURhVW5pZGFkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/DespesaDaUnidade/IndexX.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzcGVzYURhVW5pZGFkZVxJbmRleFguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Inquilino/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5xdWlsaW5vXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Inquilino/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5xdWlsaW5vXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Inquilino/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5xdWlsaW5vXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Inquilino/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5xdWlsaW5vXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Inquilino/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5xdWlsaW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Unidade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Unidade/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Unidade/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Unidade/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Unidade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Valter/Documents/VS Code Projects/test mvc/mvcwebapp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sjd2aqktin

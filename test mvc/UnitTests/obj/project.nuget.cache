@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+oFMUtODFESQWOVrU2yciPZHgvyRGHqH996oncWuaJGXtdf18Z+YUcRBEzeYeK6L/vO1hm36SDPJH8MumrA2ww==",
+  "dgSpecHash": "LnSX4mthQ+nTQulczbtMrUY3LbGz2qkqHlxHkckGeW20ua1a2jl1WecwxbgMo4BGil9Wjn6SRRGY3hDioFA6FQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Valter\\Documents\\VS Code Projects\\test mvc\\unitTests\\unitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valter\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
@@ -13,6 +13,8 @@
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.testplatform.testhost\\16.11.0\\microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Valter\\.nuget\\packages\\mstest.testadapter\\2.2.7\\mstest.testadapter.2.2.7.nupkg.sha512",
+    "C:\\Users\\Valter\\.nuget\\packages\\mstest.testframework\\2.2.7\\mstest.testframework.2.2.7.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
@@ -39,7 +41,9 @@
     "C:\\Users\\Valter\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\Valter\\.nuget\\packages\\system.diagnostics.textwritertracelistener\\4.3.0\\system.diagnostics.textwritertracelistener.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\Valter\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
@@ -87,15 +91,7 @@
     "C:\\Users\\Valter\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\Valter\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    "C:\\Users\\Valter\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
